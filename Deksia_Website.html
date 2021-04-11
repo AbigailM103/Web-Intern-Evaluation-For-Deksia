@@ -3,6 +3,7 @@
 
 <!-- -----------------------head of the website------------- -->
 <head>
+    
     <!--------------------------style---------------->
 	<style>
         
@@ -12,7 +13,7 @@
             height: 1%;
             position: absolute;
 			top: 0%;
-            margin-top: 0 auto;
+            overflow:auto;
 			}
         .blue_header{
 			background-color: blue;
@@ -20,7 +21,8 @@
             height: 5%;
             position: absolute;
 			top: 18%;
-            margin-top: 0 auto;
+            overflow:auto;
+            transform: scale();
 			}
         
         body{ 
@@ -216,7 +218,7 @@
         .yellow_line{
 			background-color: yellow;
 			width:76%;
-            height: 0.75%;
+            height: 1.5%;
             position: absolute;
             left: 15%;
 			top: 1%;
@@ -286,7 +288,27 @@
             padding: 10px;
             width: 435px;
             height: 175px;
-        }   
+        }
+        .section5_header{
+            margin-left: 100px;
+            margin-top: -120px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: blue;
+        }
+        .section5_text{
+            margin-left: 100px;
+            margin-top: -10px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            color: black;
+        }
+         .section5_pic{
+            margin-left: 10px;
+            margin-top: 50px;
+        }
         
         .section6part1{
 			background-image: url(AdobeStock_224739957.png);
@@ -323,18 +345,94 @@
             font-size: 40px;
             color: blue;
         }
-        
-        .section7_part1_text{
-            background-color: blue;
+        .section7_part1{
+            background-color: white;
 			width:40%;
             height: 75%;
             position: absolute;
 			top: 307%;
             margin-top: 0 auto;
         }
+        .section7_part1_text{
+            width:69%;
+			margin-left: 150px;
+            margin-top: 50px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: black;
+        }
+        .section7_part1_services_text{
+            margin-left: 150px;
+            margin-top: 0px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        .section7_services_box1{
+            border-radius: 8px;
+            margin-left: 150px;
+            margin-top: 20px;
+            background-color: skyblue;
+            padding: 10px;
+            width: 95px;
+            height: 30px;
+        }
+        .section7_services_box2{
+            border-radius: 8px;
+            margin-left: 280px;
+            margin-top: -50px;
+            background-color: skyblue;
+            padding: 10px;
+            width: 95px;
+            height: 30px;
+        }
+        .section7_services_box3{
+            border-radius: 8px;
+            margin-left: 150px;
+            margin-top: 12px;
+            background-color: skyblue;
+            padding: 10px;
+            width: 95px;
+            height: 30px;
+        }
+        .section7_services_box4{
+            border-radius: 8px;
+            margin-left: 280px;
+            margin-top: -50px;
+            background-color: skyblue;
+            padding: 10px;
+            width: 95px;
+            height: 30px;
+        }
         
-        .section7_part2_pic{
-            background-color: purple;
+        .section7_services_pic{
+            margin-left: -5px;
+            margin-top: 0px;
+        }
+        
+        .section7_sign_up_box{
+            border-radius: 8px;
+            margin-left: 150px;
+            margin-top: 15px;
+            background: blue;
+            padding: 10px;
+            width: 90px;
+            height: 17px;
+        }
+        .section7_sign_up_box_text{
+            margin-left: 0px;
+            margin-top: -17px;
+            text-align: center;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            color: lightblue;
+        }
+        .section7_part2{
+            background-color: white;
 			width: 60%;
             height: 75%;
             position: absolute;
@@ -342,30 +440,112 @@
             margin-top: 0 auto;
             margin-left: 40%;
         }
+        .section7_part2_pic{
+            margin-left: 10px;
+            margin-top: 4px;
+        }
         
-        .section8_part1_pic{
-            background-color: orange;
+        .section8_part1{
+            background-color: lightgray;
 			width:50%;
-            height: 75%;
+            height: 70%;
             position: absolute;
 			top: 382%;
             margin-top: 0 auto;
         }
+        .section8_part1_pic{
+            margin-left: 125px;
+            margin-top: 100px;
+        }
         
         .section8_part2_text{
-            background-color: green;
+            background-color: lightgray;
 			width: 50%;
-            height: 75%;
+            height: 70%;
             position: absolute;
 			top: 382%;
             margin-top: 0 auto;
             margin-left: 50%;
         }
+        .section8_part2_header{
+            width:55%;
+			margin-left: 37px;
+            margin-top: 100px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 23px;
+            color: blue;
+        }
+        .section8_part2_paragraph{
+            width:80%;
+			margin-left: 37px;
+            margin-top: -10px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+        }
+        .section8_part2_list{
+            width:80%;
+			margin-left: 77px;
+            margin-top: 0px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+        }
+        .section8_sign_up_box{
+            border-radius: 8px;
+            margin-left: 37px;
+            margin-top: 20px;
+            background: blue;
+            padding: 10px;
+            width: 90px;
+            height: 20px;
+        }
+        .section8_sign_up_box_text{
+            margin-left: 0px;
+            margin-top: -15px;
+            text-align: center;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 17px;
+            color: lightblue;
+        }
+        
+        .section9{
+            background-color: white;
+			width:100%;
+            height: 100%;
+            position: absolute;
+			top: 452%;
+            margin-top: 0 auto;
+        }
+        .section9_text{
+            margin-left: 150px;
+            margin-top: 0px;
+            text-align: left;
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        
+        .section9_box{
+            border-radius: 8px;
+            margin-left: 25px;
+            margin-top: 400px;
+            background: lightblue;
+            padding: 10px;
+            width: 435px;
+            height: 175px;
+        }
         
         .container{width: 100%;
 			height: 100%;
-			padding-top: 12%;
 			}
+        
 		
 		.footer{ background-color: white;
 			color: orange;
@@ -401,114 +581,236 @@
 
 <!-- -----------------------body-of-the-website------------- -->    
 <body>
-	
-    <!-- -----------------------header------------- -->
-	<div class="blue_header">	
-    </div>
-    <div class="yellow_header">	
-    </div>
-    <div class="header">
-		<div class="header_logo">
-		  <img src="Novec-logo.png" width="110px" height="110px" class="center">
-        </div>
-        <div class="search_logo">
-		  <img src="search-solid.png" width="23px" height="23px" class="center">
-        </div>
-    </div>
 
-    <!-- -----------------------section-1------------- -->
-	<div class="section1">
-		<div class="section1_title">
-		  <h3> NATURAL GAS SERVICES</h3>
-	   </div>
-        <div class="section1_title2">
-		  <h5> SUPER NEAT SUBHEAD </h5>
-	   </div>
-        <div class="section1_paragraph">
-		  <p> NOVEC Energy Solutions is pleased to offer natural gas customers in Pennsylvania, Maryland, Virginia, District of Columbia and Kentucky the option to enroll in our </p>
-	   </div>
-        <div class="sign_up_box">
-		  <div class="sign_up_box_text">
-		      <p> SIGN UP </p>
-	       </div>
-	   </div>
-	</div>
-   
-    <div class="section2">	
-    </div>
+    <div class = "container">
+        <!-- -----------------------header------------- -->
+        <div class="blue_header">	
+        </div>
+        <div class="yellow_header">	
+        </div>
+        <div class="header">
+            <div class="header_logo">
+              <img src="Novec-logo.png" width="110px" height="110px" class="center">
+            </div>
+            <div class="search_logo">
+              <img src="search-solid.png" width="23px" height="23px" class="center">
+            </div>
+        </div>
 
-    <div class="section3_part1">	
-        <div class="section3_part1_header1">
-		  <h1> H1. HEADLINE 1 STYLING AND SPACING </h1>
-	   </div>
-        <div class="section3_part1_header2">
-		  <h2> H2. HEADLINE 2 STYLING & SPACING </h2>
-	   </div>
-        <div class="section3_part1_header3">
-		  <h3> H3. SUBHEAD 3 STYLING & SPACING FOR THIS WEBSITE</h3>
-	   </div>
+        <!-- -----------------------section-1------------- -->
+        <div class="section1">
+            <div class="section1_title">
+              <h3> NATURAL GAS SERVICES</h3>
+           </div>
+            <div class="section1_title2">
+              <h5> SUPER NEAT SUBHEAD </h5>
+           </div>
+            <div class="section1_paragraph">
+              <p> NOVEC Energy Solutions is pleased to offer natural gas customers in Pennsylvania, Maryland, Virginia, District of Columbia and Kentucky the option to enroll in our </p>
+           </div>
+            <div class="sign_up_box">
+              <div class="sign_up_box_text">
+                  <p> SIGN UP </p>
+               </div>
+           </div>
+        </div>
+
+        <div class="section2">	
+        </div>
+
+        <div class="section3_part1">	
+            <div class="section3_part1_header1">
+              <h1> H1. HEADLINE 1 STYLING AND SPACING </h1>
+           </div>
+            <div class="section3_part1_header2">
+              <h2> H2. HEADLINE 2 STYLING & SPACING </h2>
+           </div>
+            <div class="section3_part1_header3">
+              <h3> H3. SUBHEAD 3 STYLING & SPACING FOR THIS WEBSITE</h3>
+           </div>
+        </div>
+
+        <div class="section3_part2">	
+            <div class="section3_part2_paragraph">
+              <p> <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </b> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. </p>
+           </div>
+            <div class="section3_part2_list">
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+           </div>
+            <div class="section3_part2_link">
+                <p> <u> Text Link Treatment > </u> </p>
+           </div> 
+        </div>
+
+         <div class="section4">
+             <div class="yellow_line">	
+             </div>
+             <div class="section4_title">
+                 <p> BENEFITS OF BUYING NATURAL GAS THROUGH NOVEC </p>
+             </div>
+        </div>
+
+        <div class="section5_part1">
+            <div class="section5_box_1">
+                <div class="section5_pic">
+                    <img src="lightning.png" width="59px" height="66px" class="center">
+                </div>
+                <div class="section5_header">
+                    <h3> BENEFIT #1 </h3>
+                </div>
+                <div class="section5_text">
+                    <p> <b> Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                </div>
+             </div>
+             <div class="section5_box_2">
+                 <div class="section5_pic">
+                    <img src="lightning.png" width="59px" height="66px" class="center">
+                </div>
+                 <div class="section5_header">
+                    <h3> BENEFIT #3 </h3>
+                </div>
+                <div class="section5_text">
+                    <p> <b> Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                </div>
+             </div>
+        </div>
+
+        <div class="section5_part2">
+             <div class="section5_box_3">
+                 <div class="section5_pic">
+                    <img src="lightning.png" width="59px" height="66px" class="center">
+                </div>
+                 <div class="section5_header">
+                    <h3> BENEFIT #2 </h3>
+                </div>
+                 <div class="section5_text">
+                    <p> <b> Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                </div>
+             </div>
+             <div class="section5_box_4">
+                 <div class="section5_pic">
+                    <img src="lightning.png" width="59px" height="66px" class="center">
+                </div>
+                 <div class="section5_header">
+                    <h3> BENEFIT #4 </h3>
+                </div>
+                <div class="section5_text">
+                    <p> <b> Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                </div>
+             </div>
+        </div>
+        <div class="section6part1">	
+        </div>
+
+        <div class="section6part2">	
+        </div>
+
+        <div class="section7_title">
+            <p> NATURAL GAS SERVICES AREA </p>
+        </div>
+
+        <div class="section7_part1">
+            <div class="section7_part1_text">
+                <p> <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </b> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="section7_part1_services_text">
+                <h3> OTHER SERVICES </h3>
+            </div>
+            <div class="section7_services_box1">
+               <div class="section7_services_pic">
+                    <img src="cord.png" width="36px" height="32px" class="center">
+                </div>
+                <div class="section7_part1_services_text">
+                    <p style="color: blue; font-size: 14px; margin-left: -110px;
+            margin-top: -35px; width: 55%"> OTHER SERVICES </p>
+                </div>
+            </div>
+            <div class="section7_services_box2">
+                <div class="section7_services_pic">
+                    <img src="cord.png" width="36px" height="32px" class="center">
+                </div>
+                <div class="section7_part1_services_text">
+                    <p style="color: blue; font-size: 14px; margin-left: -110px;
+            margin-top: -35px; width: 55%"> OTHER SERVICES </p>
+                </div>
+            </div>
+            <div class="section7_services_box3">
+                <div class="section7_services_pic">
+                    <img src="cord.png" width="36px" height="32px" class="center">
+                </div>
+                <div class="section7_part1_services_text">
+                    <p style="color: blue; font-size: 14px; margin-left: -110px;
+            margin-top: -35px; width: 55%;"> OTHER SERVICES </p>
+                </div>
+            </div>
+            <div class="section7_services_box4">
+                <div class="section7_services_pic">
+                    <img src="cord.png" width="36px" height="32px" class="center">
+                </div>
+                <div class="section7_part1_services_text">
+                    <p style="color: blue; font-size: 14px; margin-left: -110px;
+            margin-top: -35px; width: 55%"> OTHER SERVICES </p>
+                </div>
+            </div>
+            <div class="section7_part1_text">
+                <p style="width: 90%; margin-top: 0px; font-size: 16px;"> Ut enim ad minim veniam, quis nostrud exercitation. </p>
+            </div>
+            <div class="section7_sign_up_box">
+              <div class="section7_sign_up_box_text">
+                  <p> CTA </p>
+               </div>
+           </div>
+        </div>
+
+        <div class="section7_part2">
+            <div class="section7_part2_pic">
+                <img src="Screen%20Shot%202020-04-13%20at%202.50.46%20PM.png" width="844px" height="517px" class="center">
+            </div>
+        </div>
+
+        <div class="section8_part1">	
+            <div class="section8_part1_pic">
+                <img src="AdobeStock_300395016.png" width="600px" height="377px" class="center">
+            </div>
+        </div>
+
+        <div class="section8_part2_text">
+            <div class="section8_part2_header">
+              <h2> H2. HEADLINE 2 STYLING & SPACING </h2>
+           </div>
+            <div class="section8_part2_paragraph">
+              <p> <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </b> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. </p>
+           </div>
+            <div class="section8_part2_list">
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+           </div>
+            <div class="section8_sign_up_box">
+              <div class="section8_sign_up_box_text">
+                  <p> SIGN UP </p>
+               </div>
+           </div>
+        </div>
     </div>
     
-    <div class="section3_part2">	
-        <div class="section3_part2_paragraph">
-		  <p> <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </b> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. </p>
-	   </div>
-        <div class="section3_part2_list">
-            <li> Lorem ipsum dolor sit amet, consectetur </li>
-            <li> Lorem ipsum dolor sit amet, consectetur </li>
-            <li> Lorem ipsum dolor sit amet, consectetur </li>
-            <li> Lorem ipsum dolor sit amet, consectetur </li>
-	   </div>
-        <div class="section3_part2_link">
-            <p> <u> Text Link Treatment > </u> </p>
-	   </div> 
-    </div>
-   
-     <div class="section4">
-         <div class="yellow_line">	
-         </div>
-         <div class="section4_title">
-             <p> BENEFITS OF BUYING NATURAL GAS THROUGH NOVEC </p>
-         </div>
-    </div>
-    
-    <div class="section5_part1">
-        <div class="section5_box_1">
-             
-         </div>
-         <div class="section5_box_2">
-             
-         </div>
-    </div>
-    
-    <div class="section5_part2">
-         <div class="section5_box_3">
-             
-         </div>
-         <div class="section5_box_4">
-             
-         </div>
-    </div>
-    <div class="section6part1">	
-    </div>
-    
-    <div class="section6part2">	
-    </div>
-    
-    <div class="section7_title">
-        <p> NATURAL GAS SERVICES AREA </p>
-    </div>
-    
-    <div class="section7_part1_text">	
-    </div>
-    
-    <div class="section7_part2_pic">	
-    </div>
-    
-    <div class="section8_part1_pic">	
-    </div>
-    
-    <div class="section8_part2_text">	
+    <div class="section9">
+        <div class="section9_text">
+                <h3> FIXED RATE VS VARIABLE RATE GAS PRICES WHAT TO KNOW </h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+        </div>
+        <div class="section9_box">
+            <div class="section9_text">
+                
+            </div>
+        </div>
+        <div class="section9">
+      
+        </div>
     </div>
     
 </body>
