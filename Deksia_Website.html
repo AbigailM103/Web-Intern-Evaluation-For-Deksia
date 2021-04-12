@@ -22,7 +22,6 @@
             position: absolute;
 			top: 18%;
             overflow:auto;
-            transform: scale();
 			}
         
         body{ 
@@ -52,14 +51,6 @@
             top: 2.5%;
             right: 20%;
 			}
-        
-        .header_menu{
-            
-        }
-        .dropdown {
-          float: left;
-          overflow: hidden;
-        }
 
         
 		.section1{ 
@@ -118,7 +109,7 @@
             font-family: 'Trebuchet MS', sans-serif;
             font-weight: bold;
             font-size: 10px;
-            color: white;
+            color: lightblue;
         }
         
         .section2{
@@ -222,7 +213,6 @@
             position: absolute;
             left: 15%;
 			top: 1%;
-            
         }
         
         .section4_title{
@@ -517,18 +507,17 @@
         .section9{
             background-color: white;
 			width:100%;
-            height: 100%;
+            height: 130%;
             position: absolute;
 			top: 452%;
             margin-top: 0 auto;
         }
-        .section9_text{
+        .text{
             margin-left: 150px;
             margin-top: 0px;
             text-align: left;
             font-family: 'Trebuchet MS', sans-serif;
             font-size: 20px;
-            font-weight: bold;
             color: black;
         }
         
@@ -538,40 +527,73 @@
             margin-top: 400px;
             background: lightblue;
             padding: 10px;
-            width: 435px;
-            height: 175px;
+            width: 475px;
+            height: 200px;
         }
         
-        .container{width: 100%;
-			height: 100%;
-			}
+        .section10{
+            background-color: lightblue;
+			width:100%;
+            height: 50%;
+            position: absolute;
+			top: 582%;
+            margin-top: 0 auto;
+        }
+        .left_triangle {
+            margin-left: 120px;
+            margin-top: -150px;
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-right: 30px solid white;
+            border-bottom: 25px solid transparent;
+        }
+        .right_triangle {
+            margin-left: 1320px;
+            margin-top: -50px;
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-left: 30px solid white;
+            border-bottom: 25px solid transparent;
+        }
+        
+        .section11{
+            background-image: url(AdobeStock_244647617.png);
+			width:100%;
+            height: 50%;
+            position: absolute;
+			top: 632%;
+            margin-top: 0 auto;
+        }
+        
+        .section12_part1{
+            background-color: white;
+			width:40%;
+            height: 80%;
+            position: absolute;
+			top: 682%;
+            margin-top: 0 auto;
+        }
+        .section12_part2{
+            background-color: lightgray;
+			width:65%;
+            height: 80%;
+            position: absolute;
+			top: 682%;
+            margin-top: 0 auto;
+            margin-left: 35%;
+        }
+        .gray_line{
+			background-color: gray;
+			width:100%;
+            height: 0.25%;
+            position: absolute;
+			top: 25%;
+        }
         
 		
-		.footer{ background-color: white;
-			color: orange;
-			width: 100%;
-			position: absolute;
-			bottom: 0%;
-			text-align: center;
-			font-family: Impact, Charcoal, sans-serif;
-			}
-      
-        .yellow_footer{
-			background-color: yellow;
-			width:100%;
-            height: 1%;
-            position: absolute;
-			top: 0%;
-            margin-top: 0 auto;
-			}
-        .blue_footer{
-			background-color: blue;
-			width:100%;
-            height: 1%;
-            position: absolute;
-			top: 10%;
-            margin-top: 0 auto;
-			}
+		
 	</style>
 	
     <!-- -----------------------title------------- -->
@@ -582,12 +604,10 @@
 <!-- -----------------------body-of-the-website------------- -->    
 <body>
 
-    <div class = "container">
+    
         <!-- -----------------------header------------- -->
-        <div class="blue_header">	
-        </div>
-        <div class="yellow_header">	
-        </div>
+        <div class="blue_header"></div>
+        <div class="yellow_header"> </div>
         <div class="header">
             <div class="header_logo">
               <img src="Novec-logo.png" width="110px" height="110px" class="center">
@@ -615,8 +635,7 @@
            </div>
         </div>
 
-        <div class="section2">	
-        </div>
+        <div class="section2"></div>
 
         <div class="section3_part1">	
             <div class="section3_part1_header1">
@@ -646,8 +665,7 @@
         </div>
 
          <div class="section4">
-             <div class="yellow_line">	
-             </div>
+             <div class="yellow_line"> </div>
              <div class="section4_title">
                  <p> BENEFITS OF BUYING NATURAL GAS THROUGH NOVEC </p>
              </div>
@@ -702,11 +720,9 @@
                 </div>
              </div>
         </div>
-        <div class="section6part1">	
-        </div>
+        <div class="section6part1">	 </div>
 
-        <div class="section6part2">	
-        </div>
+        <div class="section6part2">	 </div>
 
         <div class="section7_title">
             <p> NATURAL GAS SERVICES AREA </p>
@@ -796,22 +812,78 @@
                </div>
            </div>
         </div>
-    </div>
+  
     
     <div class="section9">
-        <div class="section9_text">
-                <h3> FIXED RATE VS VARIABLE RATE GAS PRICES WHAT TO KNOW </h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+        <div class="text">
+                <h3 style="color: blue; font-weight: bold; font-size: 45px; width:40%; margin-left: 0px; margin-top: 60px;"> <b>FIXED RATE VS VARIABLE RATE GAS PRICES WHAT TO KNOW </b></h3>
+                <p style="font-size: 17px; width:40%; margin-left: 600px; margin-top: -200px;"> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </b> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
         </div>
-        <div class="section9_box">
-            <div class="section9_text">
-                
+        <div class="section9_box" style="margin-left: 150px; margin-top: 110px;">
+            <div class="text">
+                <p style="color: blue; font-weight: bold; font-size: 15px; width:40%; margin-left: -100px; margin-top: 40px;"> FIXED RATE </p>
             </div>
+            <div class="text" style="font-size: 15px; width:70%; margin-left: 75px; margin-top: 20px;">
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+           </div>
         </div>
-        <div class="section9">
-      
+        <div class="section9_box" style="margin-left: 750px; margin-top: -220px;">
+            <div class="text">
+                <p style="color: blue; font-weight: bold; font-size: 15px; width:40%; margin-left: -100px; margin-top: 40px;"> VARIABLE RATE </p>
+            </div>
+            <div class="text" style="font-size: 15px; width:70%; margin-left: 75px; margin-top: 20px;">
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+                <li> Lorem ipsum dolor sit amet, consectetur </li>
+           </div>
+        </div>
+        <img src="graph.png" width="601px" height="364px" class="center" style="margin-left: 400px; margin-top: 40px;">
+    </div>
+    
+    <div class="section10">
+        <img src="AdobeStock_190536658.png" width="270px" height="270px" class="center" style="margin-left: 360px; margin-top: 40px;">
+        <div class="left_triangle"></div>
+        <div class="right_triangle"></div>
+        <div class="text">
+            <p style="color: blue;  font-size: 20px; width:30%; margin-left: 510px; margin-top: -150px;"> “I have never had a bad experience with Novec and I have been a customer of theirs since 1997. They recently processed a change of service for me and whenever I call with a question, they are always very helpful. I appreciate that in a service environment it isn’t always easy dealing with people or their situations, but they do their best.” </p>
+            <p style="font-weight: bold; font-size: 15px; width:40%; margin-left: 510px; margin-top: 0px;"> JIM SMITH, CUSTOMER SINCE 1997 </p>
         </div>
     </div>
+    
+    <div class="section11"></div>
+    <div class="section12_part1">
+        <div class="text">
+            <h3 style="color: blue; font-weight: bold; font-size: 35px; width:40%; margin-left: 30px; margin-top: 100px;"> FREQUENTLY ASKED QUESTIONS </h3>
+            <p style="font-weight: bold; font-size: 15px; width:40%; margin-left: 30px; margin-top: 10px;"> FAQ CATEGORY </p>
+            <p style="font-weight: bold; font-size: 15px; width:40%; margin-left: 30px; margin-top: 10px;"> FAQ CATEGORY </p>
+            <p style="font-weight: bold; font-size: 15px; width:40%; margin-left: 30px; margin-top: 10px;"> FAQ CATEGORY </p>
+            <p style="font-weight: bold; font-size: 15px; width:40%; margin-left: 30px; margin-top: 10px;"> FAQ CATEGORY </p>
+        </div>
+    </div>
+    
+    
+    <div class="section12_part2">
+        <div class="gray_line"> </div>
+        <div class="gray_line" style="top: 45%;"> </div>
+        <div class="text">
+            <img src="plus.png" width="30px" height="30px" class="center" style="margin-left: 650px; margin-top: 80px;">
+            <h3 style="font-weight: bold; font-size: 25px; width:80%; margin-left: -70px; margin-top: -20px;"> WHAT GAS COMPANY SERVICES MY ADDRESS? </h3>
+            <img src="plus.png" width="30px" height="30px" class="center" style="margin-left: 650px; margin-top: 40px;">
+            <h3 style="font-weight: bold; font-size: 25px; width:80%; margin-left: -70px; margin-top: -30px;"> CAN I SWITCH NATURAL GAS PROVIDERS? </h3>
+            <img src="minus.png" width="33px" height="33px" class="center" style="margin-left: 650px; margin-top: 40px;">
+            <h3 style="font-weight: bold; font-size: 25px; width:80%; margin-left: -70px; margin-top: -30px;"> HOW TO GET NATURAL GAS IN MY NEIGHBORHOODS? </h3>
+            <p style="font-size: 17px; width:70%; margin-left: -70px; margin-top: 10px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+            <p style="font-size: 17px; width:70%; margin-left: -70px; margin-top: 10px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+        </div>
+    </div>
+    
+    <div class="blue_header" style="top: 762%;"></div>
+    <div class="header" style="top: 767%;"></div> 
+    <div class="yellow_header" style="top: 797%; height: 2%;"> </div>
     
 </body>
 </html>
